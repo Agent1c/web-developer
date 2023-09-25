@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    border: 5px solid #eee;
+    padding: 5px;
+    margin: 3px;
+}
+
+.cv_index{
+    margin: 0 auto;
+    background: #eee;
+    padding: 20px auto;
+}
+
+.leftContent{
+    background:#293e49;
+    display: grid;
+    text-align: left;
+    position: absolute;
+    width: 400px;
+}
+.mainBar{
+    background: #ffffff;
+    position: relative;
+}
