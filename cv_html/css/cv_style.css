@@ -76,10 +76,13 @@ img{
 }
 .contact{
     display: block;
-    margin: auto 5px;
+    margin:0 5px;
+    text-overflow:ellipsis ;  
 
 }
-
+.number .email .address{
+    padding: 15px;
+}
 h2{
     font-size: 28px;
     margin: 10px auto;
