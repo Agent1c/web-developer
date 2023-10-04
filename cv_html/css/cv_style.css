@@ -1,6 +1,38 @@
 body{
     margin: 0 auto;
-    max-width: 900px;
+    width: 960px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom:1px solid #7a1c1c;
+    position:sticky;
+    
+}
+
+.socialMedia{
+    display: inline-block;
+}
+
+.socialMedia ul {
+    text-decoration: none;
+    display: block;
+
+}
+.socialMedia ul li {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.socialMedia ul li a{
+
 }
 
 img{
@@ -12,19 +44,50 @@ img{
 }
 
 .cv_index{
+    max-width: 1000px;
     margin: 0 auto;
-    background: #eee;
-    padding: 20px auto;
+    display: grid;
+    background-color: crimson;
+}
+.leftContent{
+    background: #0fb0d8; 
+    display:block;
+    width: 300px;
+    padding: 5px;
+    position:absolute;
 }
 
-.leftContent{
-    background:#293e49;
-    display: grid;
-    text-align: left;
-    position: absolute;
-    width: 400px;
+.userNames h1{
+   padding: auto;
+   font-family: 'Courier New', Courier, monospace;
+   margin: 3px  5x;
 }
+
+
+
 .mainBar{
-    background: #ffffff;
+    width: 450px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    margin-right: 10px;
     position: relative;
+   
+}
+.contact{
+    display: block;
+    margin: auto 5px;
+
+}
+
+h2{
+    font-size: 28px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-radius: 15px;
+}
+p{
+    margin: 5px auto;
 }
